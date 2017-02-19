@@ -2,4 +2,4 @@
 
 Harsh colors for a harsh world.
 
-![A screenshot of your theme](https://github.com/ryanmurakami/no-compromise-syntax/blob/master/screenshot.png)
+![A screenshot of your theme](https://raw.githubusercontent.com/ryanmurakami/no-compromise-syntax/master/screenshot.png)
