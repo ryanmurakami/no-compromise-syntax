@@ -1,0 +1,15 @@
+{
+  "name": "no-compromise-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Harsh colors for a harsh world.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/ryanmurakami/no-compromise-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
