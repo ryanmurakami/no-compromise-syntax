@@ -1,0 +1,365 @@
+@import "syntax-variables.less";
+
+// big thanks https://github.com/th00ber/atom-json-color
+
+atom-text-editor.editor {
+  .syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+        color: @default;
+
+      .syntax--string.syntax--json {
+        color: @level1-key;
+      }
+
+      .syntax--value.syntax--json > .syntax--string.syntax--json,
+      .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+        color: @level1-value;
+      }
+
+      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+        color: @level1-value;
+      }
+
+      span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+          color: @default;
+
+          .syntax--string.syntax--json {
+            color: @level2-key;
+          }
+
+          .syntax--value.syntax--json > .syntax--string.syntax--json,
+          .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+            color: @level2-value;
+          }
+
+          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+            color: @level2-value;
+          }
+
+          span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+              color: @default;
+
+              .syntax--string.syntax--json {
+                color: @level3-key;
+              }
+
+              .syntax--value.syntax--json > .syntax--string.syntax--json,
+              .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                color: @level3-value;
+              }
+
+              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                color: @level3-value;
+              }
+
+              span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                  color: @default;
+
+                  .syntax--string.syntax--json {
+                    color: @level4-key;
+                  }
+
+                  .syntax--value.syntax--json > .syntax--string.syntax--json,
+                  .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                    color: @level4-value;
+                  }
+
+                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                    color: @level4-value;
+                  }
+
+                  span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                      color: @default;
+
+                      .syntax--string.syntax--json {
+                        color: @level5-key;
+                      }
+
+                      .syntax--value.syntax--json > .syntax--string.syntax--json,
+                      .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                        color: @level5-value;
+                      }
+
+                      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                        color: @level5-value;
+                      }
+
+                      span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                          color: @default;
+
+                          .syntax--string.syntax--json {
+                            color: @level6-key;
+                          }
+
+                          .syntax--value.syntax--json > .syntax--string.syntax--json,
+                          .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                            color: @level6-value;
+                          }
+
+                          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                            color: @level6-value;
+                          }
+
+                          span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                              color: @default;
+
+                              .syntax--string.syntax--json {
+                                color: @level1-key;
+                              }
+
+                              .syntax--value.syntax--json > .syntax--string.syntax--json,
+                              .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                color: @level1-value;
+                              }
+
+                              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                color: @level1-value;
+                              }
+
+                              span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                  color: @default;
+
+                                  .syntax--string.syntax--json {
+                                    color: @level2-key;
+                                  }
+
+                                  .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                  .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                    color: @level2-value;
+                                  }
+
+                                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                    color: @level2-value;
+                                  }
+
+                                  span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                      color: @default;
+
+                                      .syntax--string.syntax--json {
+                                        color: @level3-key;
+                                      }
+
+                                      .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                      .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                        color: @level3-value;
+                                      }
+
+                                      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                        color: @level3-value;
+                                      }
+
+                                      span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                          color: @default;
+
+                                          .syntax--string.syntax--json {
+                                            color: @level4-key;
+                                          }
+
+                                          .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                          .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                            color: @level4-value;
+                                          }
+
+                                          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                            color: @level4-value;
+                                          }
+
+                                          span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                              color: @default;
+
+                                              .syntax--string.syntax--json {
+                                                color: @level5-key;
+                                              }
+
+                                              .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                              .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                color: @level5-value;
+                                              }
+
+                                              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                color: @level5-value;
+                                              }
+
+                                              span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                                  color: @default;
+
+                                                  .syntax--string.syntax--json {
+                                                    color: @level6-key;
+                                                  }
+
+                                                  .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                                  .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                    color: @level6-value;
+                                                  }
+
+                                                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                    color: @level6-value;
+                                                  }
+
+                                                  span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                                      color: @default;
+
+                                                      .syntax--string.syntax--json {
+                                                        color: @level1-key;
+                                                      }
+
+                                                      .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                                      .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                        color: @level1-value;
+                                                      }
+
+                                                      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                                      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                        color: @level1-value;
+                                                      }
+
+                                                      span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                                          color: @default;
+
+                                                          .syntax--string.syntax--json {
+                                                            color: @level2-key;
+                                                          }
+
+                                                          .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                                          .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                            color: @level2-value;
+                                                          }
+
+                                                          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                                          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                            color: @level2-value;
+                                                          }
+
+                                                          span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                                              color: @default;
+
+                                                              .syntax--string.syntax--json {
+                                                                color: @level3-key;
+                                                              }
+
+                                                              .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                                              .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                color: @level3-value;
+                                                              }
+
+                                                              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                                              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                color: @level3-value;
+                                                              }
+
+                                                              span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                                                  color: @default;
+
+                                                                  .syntax--string.syntax--json {
+                                                                    color: @level4-key;
+                                                                  }
+
+                                                                  .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                                                  .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                    color: @level4-value;
+                                                                  }
+
+                                                                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                                                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                    color: @level4-value;
+                                                                  }
+
+                                                                  span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                                                      color: @default;
+
+                                                                      .syntax--string.syntax--json {
+                                                                        color: @level5-key;
+                                                                      }
+
+                                                                      .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                                                      .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                        color: @level5-value;
+                                                                      }
+
+                                                                      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                                                      .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                        color: @level5-value;
+                                                                      }
+
+                                                                      span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                                                          color: @default;
+
+                                                                          .syntax--string.syntax--json {
+                                                                            color: @level6-key;
+                                                                          }
+
+                                                                          .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                                                          .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                            color: @level6-value;
+                                                                          }
+
+                                                                          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                                                          .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                            color: @level6-value;
+                                                                          }
+
+                                                                          span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                                                              color: @default;
+
+                                                                              .syntax--string.syntax--json {
+                                                                                color: @level1-key;
+                                                                              }
+
+                                                                              .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                                                              .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                                color: @level1-value;
+                                                                              }
+
+                                                                              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                                                              .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                                color: @level1-value;
+                                                                              }
+
+                                                                              span .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+                                                                                  color: @default;
+
+                                                                                  .syntax--string.syntax--json {
+                                                                                    color: @level2-key;
+                                                                                  }
+
+                                                                                  .syntax--value.syntax--json > .syntax--string.syntax--json,
+                                                                                  .syntax--value.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                                    color: @level2-value;
+                                                                                  }
+
+                                                                                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json,
+                                                                                  .syntax--value.syntax--json > .syntax--array.syntax--json > .syntax--string.syntax--json > .syntax--punctuation {
+                                                                                    color: @level2-value;
+                                                                                  }
+                                                                              }
+                                                                          }
+                                                                      }
+                                                                  }
+                                                              }
+                                                          }
+                                                      }
+                                                  }
+                                              }
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
